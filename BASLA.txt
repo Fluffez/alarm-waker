@@ -1,0 +1,117 @@
+╔════════════════════════════════════════════════════════════════╗
+║                  🔔 ALARM WAKER - BAŞLAYALIM!                  ║
+║          Arkadaşını Uyandırma Sistemi (Kotlin + Python)        ║
+╚════════════════════════════════════════════════════════════════╝
+
+👋 HOŞGELDINIZ!
+
+Bu sistem sayesinde arkadaşınızın telefonuna uzaktan alarm gönderebileceksiniz.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ HIZLI BAŞLANGIC (5 dakika)
+
+1. QUICK_START.md dosyasını açın
+   → Veya BENIOKU.md dosyasını açın (Türkçe)
+
+2. Firebase Console'a gidin
+   → https://console.firebase.google.com
+
+3. Yeni proje oluşturun
+
+4. google-services.json dosyasını indirin
+   → app/ klasörüne koyun
+
+5. serviceAccountKey.json dosyasını indirin
+   → sender/ klasörüne koyun
+
+6. Android uygulamasını derleyin
+   → ./gradlew installDebug
+
+7. Python kurulumunu yapın
+   → cd sender && pip install -r requirements.txt
+
+8. Alarm gönderin!
+   → python web_sender.py
+   → Tarayıcıda: http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 REHBER DOSYALARI
+
+Başlamak için (sırasıyla oku):
+  1. BENIOKU.md              ← Türkçe ana rehber
+  2. QUICK_START.md          ← 5 dakikada başlayın
+  3. FIREBASE_SETUP.md       ← Firebase kurulumu
+  4. SETUP_GUIDE.md          ← Detaylı kurulum
+  5. CHECKLIST.md            ← Kontrol listesi
+
+Referans:
+  • PROJECT_STRUCTURE.md     ← Proje yapısı
+  • README.md                ← İngilizce README
+  • INDEX.md                 ← İçindekiler
+  • DOSYA_LISTESI.txt        ← Tüm dosyalar
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 NE YAPACAK?
+
+✅ Arkadaşınızın telefonuna uzaktan alarm gönderin
+✅ Farklı alarm türleri seçin (normal, hafif, gürültülü)
+✅ Alarm süresini özelleştirin (5-300 saniye)
+✅ Web arayüzünden veya komut satırından gönderin
+✅ Firebase Cloud Messaging ile güvenli iletişim
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠️ TEKNOLOJI
+
+Android:
+  • Kotlin (Programlama dili)
+  • Jetpack Compose (UI)
+  • Firebase Cloud Messaging (Push notifications)
+  • Material Design 3 (Tasarım)
+
+Backend:
+  • Python (Gönderici)
+  • Flask (Web framework)
+  • Firebase Admin SDK (Firebase entegrasyonu)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 PROJE YAPISI
+
+yigit/
+├── app/                    ← Android uygulaması (Kotlin)
+├── sender/                 ← Python gönderici
+├── BENIOKU.md             ← Türkçe rehber (BU DOSYAYI OKU!)
+├── QUICK_START.md         ← Hızlı başlangıç
+├── FIREBASE_SETUP.md      ← Firebase kurulumu
+├── SETUP_GUIDE.md         ← Detaylı kurulum
+├── CHECKLIST.md           ← Kontrol listesi
+├── PROJECT_STRUCTURE.md   ← Proje yapısı
+├── README.md              ← İngilizce README
+├── INDEX.md               ← İçindekiler
+└── DOSYA_LISTESI.txt      ← Dosya listesi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ SORUN GIDERME
+
+Sorun yaşarsanız:
+  1. QUICK_START.md - Hızlı çözümler
+  2. SETUP_GUIDE.md - Detaylı rehber
+  3. FIREBASE_SETUP.md - Firebase sorunları
+  4. CHECKLIST.md - Kontrol listesi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 BAŞLAYIN!
+
+Şimdi BENIOKU.md veya QUICK_START.md dosyasını açın!
+
+Arkadaşınızı uyandırmaya hazır mısınız? 🔔
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+İyi şanslar! 🚀

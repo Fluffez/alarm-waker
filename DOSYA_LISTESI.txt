@@ -1,0 +1,118 @@
+📋 ALARM WAKER - DOSYA LİSTESİ
+================================
+
+📚 REHBER DOSYALARI (Bunları okuyun!)
+────────────────────────────────────
+✅ BENIOKU.md              - Türkçe ana rehber (başlayın buradan!)
+✅ QUICK_START.md          - 5 dakikada başlangıç
+✅ FIREBASE_SETUP.md       - Firebase kurulumu adım adım
+✅ SETUP_GUIDE.md          - Detaylı kurulum rehberi
+✅ CHECKLIST.md            - Kontrol listesi
+✅ PROJECT_STRUCTURE.md    - Proje yapısı açıklaması
+✅ README.md               - İngilizce README
+
+🔧 GRADLE DOSYALARI (Android derlemesi)
+──────────────────────────────────────
+✅ build.gradle.kts        - Root Gradle konfigürasyonu
+✅ settings.gradle.kts     - Gradle ayarları
+✅ app/build.gradle.kts    - App bağımlılıkları
+✅ proguard-rules.pro      - Kod obfuskasyonu
+
+📱 ANDROID UYGULAMASI (Kotlin)
+──────────────────────────────
+✅ app/AndroidManifest.xml                      - Manifest
+✅ app/google-services.json                     - Firebase config (indirmeniz gerekli)
+✅ app/src/main/java/com/example/alarmwaker/
+   ├── MainActivity.kt                          - Ana ekran
+   ├── service/
+   │  ├── AlarmService.kt                       - Alarm sesi servisi
+   │  └── FirebaseMessagingService.kt           - FCM mesaj alma
+   ├── receiver/
+   │  └── AlarmReceiver.kt                      - Broadcast receiver
+   └── ui/theme/
+      ├── Theme.kt                              - Material Design tema
+      ├── Color.kt                              - Renkler
+      └── Type.kt                               - Tipografi
+✅ app/src/main/res/
+   ├── values/strings.xml                       - Yazı kaynakları
+   └── values/themes.xml                        - Tema kaynakları
+
+💻 PYTHON GÖNDERICI
+───────────────────
+✅ sender/requirements.txt                      - Python bağımlılıkları
+✅ sender/send_alarm.py                         - Komut satırı aracı
+✅ sender/web_sender.py                         - Web sunucusu
+✅ sender/setup.bat                             - Windows kurulum scripti
+✅ sender/setup.sh                              - Linux/Mac kurulum scripti
+✅ sender/serviceAccountKey.json                - Firebase credentials (indirmeniz gerekli)
+✅ sender/templates/
+   └── index.html                               - Web arayüzü
+
+🔧 DİĞER DOSYALAR
+─────────────────
+✅ .gitignore                                   - Git ignore dosyası
+✅ DOSYA_LISTESI.txt                            - Bu dosya
+
+
+📥 İNDİRMENİZ GEREKEN DOSYALAR
+═══════════════════════════════
+
+1. google-services.json
+   ├─ Firebase Console > Proje > Android uygulaması
+   └─ Hedef: app/ klasörü
+
+2. serviceAccountKey.json
+   ├─ Firebase Console > Proje Ayarları > Hizmet Hesapları > Python
+   └─ Hedef: sender/ klasörü
+
+
+🚀 BAŞLAMAK İÇİN
+════════════════
+
+1. BENIOKU.md dosyasını okuyun
+2. QUICK_START.md dosyasını takip edin
+3. FIREBASE_SETUP.md ile Firebase'i kurun
+4. SETUP_GUIDE.md ile detaylı kurulumu yapın
+5. CHECKLIST.md ile kontrol edin
+
+
+📊 DOSYA SAYILARI
+═════════════════
+
+Rehber Dosyaları:        7
+Gradle Dosyaları:        4
+Android Dosyaları:      10
+Python Dosyaları:        7
+Diğer Dosyalar:          2
+────────────────────────
+TOPLAM:                 30+
+
+
+🎯 SONRAKI ADIMLAR
+══════════════════
+
+1. BENIOKU.md veya QUICK_START.md dosyasını açın
+2. Firebase Console'a gidin (https://console.firebase.google.com)
+3. Yeni proje oluşturun
+4. google-services.json dosyasını indirin
+5. serviceAccountKey.json dosyasını indirin
+6. Dosyaları uygun klasörlere koyun
+7. Android uygulamasını derleyin
+8. Python bağımlılıklarını yükleyin
+9. Alarm gönderin! 🔔
+
+
+📞 SORUN GIDERME
+════════════════
+
+Sorun yaşarsanız:
+1. QUICK_START.md - Hızlı başlangıç
+2. SETUP_GUIDE.md - Detaylı rehber
+3. FIREBASE_SETUP.md - Firebase sorunları
+4. CHECKLIST.md - Kontrol listesi
+
+
+✨ İYİ ŞANSLAR! 🚀
+═════════════════
+
+Arkadaşınızı uyandırmaya hazır mısınız?
