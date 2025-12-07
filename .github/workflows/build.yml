@@ -25,7 +25,7 @@ jobs:
     - name: Build APK
       run: |
         chmod +x ./gradlew
-        gradle wrapper --gradle-version 8.1
+        gradle wrapper --gradle-version 8.1 --distribution-type all
         ./gradlew assembleDebug
     
     - name: Upload APK
